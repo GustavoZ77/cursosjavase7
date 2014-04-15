@@ -34,6 +34,9 @@ public class Session1 {
     public static void main(String[] args) {
         // TODO code application logic here
         
+        //creamos lo objetos que nos permiten elegir que ejemplo visualizar
+        
+        
     }
     
 }
