@@ -12,16 +12,16 @@ package ciclos;
  */
 public class Sumatoria {
  
-    //
-    public void useFor(){
+    //usa for para realizar la sumatoria
+    public void useFor(int numero){
     
     }
     
-    public void useWhile(){
+    public void useWhile(int numero){
     
     }
     
-    public void useDoWhile(){
+    public void useDoWhile(int numero){
     
     }
     
