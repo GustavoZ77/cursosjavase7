@@ -10,6 +10,19 @@ package ciclos;
  *
  * @author gustavo
  */
-public class Ciclos {
+public class Sumatoria {
+ 
+    
+    public void useFor(){
+    
+    }
+    
+    public void useWhile(){
+    
+    }
+    
+    public void useDoWhile(){
+    
+    }
     
 }
