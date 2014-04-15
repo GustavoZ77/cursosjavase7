@@ -1,8 +1,18 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * Ejemplo de ciclos y sumatoria
+ *
+ *
+ * LICENSE: GNU
+ *
+ * @category   POO java
+ * @package    ciclos
+ * @license    http://www.gnu.org/licenses/gpl.txt  GNU GPL 3.0
+ * @version    0.1
+ * @author     Gustavo Zepeda <gustavo@hightechcoders.com>
+ * @link       www.hightechcoders.com/curso
+ * @since      File available since Release 0.1
  */
+
 package ciclos;
 
 /**
@@ -11,8 +21,14 @@ package ciclos;
  */
 public class Sumatoria {
 
-    //usa "for" para realizar la sumatoria
-    public int useFor(int numero) {
+    /**
+     * Implementación del ciclo for
+     *
+     * @access public
+     * @int  int numero
+     * @return  int sumatoria
+     */
+    public int usaFor(int numero) {
         //este valor nos sive para realizar la sumatoria
         int sumatoria = 0;
         /*
@@ -26,8 +42,14 @@ public class Sumatoria {
         return sumatoria;
     }
 
-    //usa el cilco while para realizar la sumatoria
-    public int useWhile(int numero) {
+    /**
+     * Implementación del ciclo while
+     *
+     * @access public
+     * @int  int numero
+     * @return  int sumatoria
+     */
+    public int usaWhile(int numero) {
         //este valor nos sive para realizar la sumatoria
         int sumatoria = 0;
         // en la sintaxis de while la definición del contador va fuera del 
@@ -42,14 +64,26 @@ public class Sumatoria {
         }
         return sumatoria;
     }
-
-    public int useDoWhile(int numero) {
+    
+    /**
+     * Implementación del ciclo do while
+     *
+     * @access public
+     * @int  int numero
+     * @return  int sumatoria
+     */
+    public int usaDoWhile(int numero) {
+        //variable que almacena la sumatoria
         int sumatoria = 0;
+        //contador
         int contador = 0;
+        //bloque de lógica de el ciclo "do while"
         do {
-
+            //sumarotia
             sumatoria += contador;
-        } while (contador <= numero);
+        }
+        //condición
+        while (contador <= numero);
         return sumatoria;
     }
 
