@@ -12,4 +12,13 @@ package condicionales;
  */
 public class Escojercolor {
     
+    
+    public boolean useIfElse(){
+    return false;
+    }
+    
+    public boolean userSwitch(){
+    return false;
+    }
+    
 }
