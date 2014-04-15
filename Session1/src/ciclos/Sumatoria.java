@@ -12,7 +12,7 @@ package ciclos;
  */
 public class Sumatoria {
  
-    
+    //
     public void useFor(){
     
     }
