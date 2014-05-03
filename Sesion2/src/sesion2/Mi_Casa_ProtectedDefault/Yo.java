@@ -24,10 +24,11 @@
  */
 
 //Declaración de paquete
-package sesion2.Yo_MIsmo_Private;
+package sesion2.Mi_Casa_ProtectedDefault;
+
 
 //declaración de clase
-public class Yo {
+public class Yo extends Papa {
     
     //------ATRIBUTOS
     
@@ -43,26 +44,9 @@ public class Yo {
     * @String secretosPersonales
     * @access private
     */
-    private String secretosPersonales = "";
+    private String secretosPersonales = "Este es un secreto muy personal";
     
-    
-    /**
-    * protected: este modificador de acceso es usado para obligar a que 
-    * solo clases que heredan de esta o que esten en el mismo paquete
-    * pueden usar el atributo o método (solo tiene sentido en clases o
-    * interfaces internas)
-    * 
-    * Aquí usamos protected porque puedo saber los secretos
-    * de la familia por ser parte de ella (de alguna manera puedo decir 
-    * que los heredo =D) ademas si vivo en la misma casa pues 
-    * de alguna manera los conozco aunque no sea parte de la familia 
-    * (por ejemplo si vivo en casa de algún tio)
-    *
-    * @String secretosFamiliares
-    * @access protected
-    */
-    protected String secretosFamiliares = "";
-    
+       
     /**
     * Cuando no definimos un modificador de acceso 
     * de forma específica java ocupa un modificador 
@@ -114,5 +98,16 @@ public class Yo {
     */
     public static String caracterirticasFisicas = "";
     
+    
+    /**
+    * Si quiere saber mis secretos deben pedirmelos a mi mismo
+    *
+    * @access public
+    * @return String
+    * @throws Exception Si el elemento no es encontrado
+    */
+    public String dimeTusSecretosPersonale(){
+        return this.secretosPersonales;
+    }
     
 }
