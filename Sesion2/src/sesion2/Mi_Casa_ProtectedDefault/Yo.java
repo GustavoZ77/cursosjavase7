@@ -62,7 +62,7 @@ public class Yo extends Papa {
     * @String comportamientoCasa
     * @access default
     */
-    String comportamientoCasa = "";  
+    String comportamientoCasa = "Este es un comportamiento en casa";  
     
     
     /**
@@ -79,7 +79,7 @@ public class Yo extends Papa {
     * @String nombre
     * @access public
     */
-    public String nombre = "";
+    public String nombre = "Este es mi nombre";
     
     
     /**
@@ -96,7 +96,8 @@ public class Yo extends Papa {
     * @String caracterirticasFisicas
     * @access static
     */
-    public static String caracterirticasFisicas = "";
+    private static String caracterirticasFisicas = "Estas son mis "
+            + "característicasa físicas";
     
     
     /**
@@ -108,6 +109,19 @@ public class Yo extends Papa {
     */
     public String dimeTusSecretosPersonale(){
         return this.secretosPersonales;
+    }
+    
+    /**
+    * Accedemos a las caracteristicas por medio de un método
+    * static
+    * Como el método es static el atributo tambien debe serlo
+    * 
+    * @access public
+    * @return String
+    * @throws Exception Si el elemento no es encontrado
+    */
+    public static String dameCarateristicasFisicas(){
+        return Yo.caracterirticasFisicas;
     }
     
 }

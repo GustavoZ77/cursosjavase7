@@ -1,5 +1,3 @@
-
-package sesion2.Mi_Casa_ProtectedDefault;
 /**
  * Esta clase prentende modelar en un sentido abstracto a 
  * una persona con diferentes atributos, los cuales 
@@ -25,12 +23,11 @@ package sesion2.Mi_Casa_ProtectedDefault;
  * @since      File available since Release 0.1
  */
 
+package sesion2.Mi_Casa_ProtectedDefault;
 
-/**
- *
- * @author gustavo
- */
 public class CasaMain {
+    
+    //ATRIBUTOS
     
     /**
     * Variable tipo yo (yo vivo en mi casa)

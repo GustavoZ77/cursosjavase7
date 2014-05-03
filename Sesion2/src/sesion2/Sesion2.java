@@ -19,13 +19,31 @@
  */
 package sesion2;
 
+import sesion2.Conocidos_Public.ConocidosMain;
+import sesion2.La_Sociedad_Static.SociedadMain;
+import sesion2.Mi_Casa_ProtectedDefault.CasaMain;
+
 public class Sesion2 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        //objeto tipo sociedad (personas en la calle)
+        SociedadMain sociedad = new SociedadMain();
+        System.out.println(sociedad.porLaCalle());
+        
+        //objeto tipo conocidos (Amigos compañeros de clase o de trabajo) 
+        ConocidosMain conocidos = new ConocidosMain();
+        System.out.println(conocidos.comoTeLLamas());
+        
+        //objeto tipo casa (los que viven en la misma casa)
+        CasaMain casa = new CasaMain();
+        System.out.println(casa.DimeComportamientoCasa());
+        System.out.println(casa.dimeSecretosFamiliares());
+        System.out.println(casa.dimeSecretosFamiliaresYo());
+        
     }
     
 }

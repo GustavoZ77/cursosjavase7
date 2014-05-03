@@ -17,6 +17,8 @@ package sesion2.Mi_Casa_ProtectedDefault;
 
 public class Papa {
     
+    //ATRIBUTOS
+    
     /**
     * protected: este modificador de acceso es usado para obligar a que 
     * solo clases que heredan de esta o que esten en el mismo paquete
@@ -32,6 +34,6 @@ public class Papa {
     * @String secretosFamiliares
     * @access protected
     */
-    protected String secretosFamiliares = "";
+    protected String secretosFamiliares = "Secreto de Familia";
     
 }
