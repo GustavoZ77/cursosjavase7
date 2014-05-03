@@ -5,7 +5,10 @@
  * a objetos; en como se crea un objeto, como se hace referencia a el 
  * como se crea un clase, como se definen los atributos y como 
  * se aplican los diferentes modificadores de acceso a cada uno de
- * los atributos, los métodos los abordaremos en otra sesion
+ * los atributos, los métodos los abordaremos en otra sesion,
+ * 
+ * para probar el efecto de los modificadores de acceso
+ * los invito a modificar el código
  *
  * LICENSE: GNU
  *
